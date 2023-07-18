@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue:regular" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Games Pending</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="filter: drop-shadow(5px 2px 17px #000);">
+        <a class="navbar-brand ml-3" href="index.html"><img src="imgs/logo.png" height="30" width="30" /></a>
+        <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#snapNavbar">
+            <span class="navbar-toggler-icon navbar-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="snapNavbar">
+            <ul class="navbar-nav ml-auto mr-3">
+                <li class="nav-item active"><a class="nav-link text-dark" href="#">
+                        Home</a>
+                </li>
+                <li class="nav-item"><a class="nav-link text-dark" href="aboutus.html">
+                        About</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">
+                        Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HEADER-TEXT -->
+    <div class="bg-image" style="background-image: url(imgs/vhsbg.gif); height: 550px; background-position: center; background-size: cover;   background-attachment: fixed; background-repeat: repeat;
+        ">
+        <div class="pt-5 pl-4"
+            style="display: flex; align-items: left; flex-direction: column; justify-content: top; height: 100%;">
+            <div class="row row-content">
+                <div class="col-12">
+                    <h1 class="text-light" style="filter: drop-shadow(5px 2px 17px #000); 
+                    font-family: 'Bebas Neue', sans-serif;
+                    font-size: 6rem;
+                    ">[Creating <span class="interiorText" style="filter: drop-shadow(5px 2px 17px #000); 
+                    font-family: 'Bebas Neue', sans-serif;
+                    font-size: 6rem;"></span>
+                    </h1>
+                    <h3 class="text-light" style="font-family: 'Bebas Neue', sans-serif;
+                    filter: drop-shadow(5px 2px 17px #000);
+                    font-size: 2rem;">Every <b>Monday</b> & <b>Wednesday</b></h3>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-md btn-light mt-3" id="subBtn"
+                        href="https://www.youtube.com/@gamespending?sub_confirmation=1">
+                        <i class="fa fa-youtube-play"></i> SUBSCRIBE
+                    </button>
+                    <button class="btn btn-md btn-light mt-3 ml-2" id="folBtn"
+                        href="https://www.youtube.com/@gamespending?sub_confirmation=1">
+                        <i class="fa fa-youtube-play"></i> FOLLOW
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CARDS -->
+    <div class="container pt-5 pb-5">
+        <div class="text-center pt-1 pb-3">
+            <h2>[VIDEOS]</h2>
+        </div>
+        <div class="row row-content">
+            <div class="col col-xs-3 col-md-4">
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUQHp3nm_zQajUwXPxl43Few">
+                        </iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">[RECENT]</h5>
+                        <p class="card-text">The most recently uploaded Youtube video to my channel. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-10 col-md-4">
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JPHWkTnwLxs"></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">[RECOMMENDED]</h5>
+                        <p class="card-text">One of my Youtube videos which I would show to somebody to give them an
+                            idea of what I do.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <div class="card">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe src="https://www.youtube.com/embed?listType=playlist&list=UULPQHp3nm_zQajUwXPxl43Few">
+                        </iframe>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">[MOST POPULAR]</h5>
+                        <p class="card-text">My current most popular Youtube video, a tutorial about fixing a certain
+                            error screen preventing users from playing GTA V.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center pt-3">
+            <button class="btn btn-md btn-dark" id="viewAll">
+                VIEW ALL
+            </button>
+        </div>
+    </div>
+
+    <!-- INFO -->
+    <div class="container pt-3 pb-5">
+        <div class="row row-content">
+            <div class="col-sm-4 col-xs-12">
+                <div class="offerText">
+                    <h1 class="hidden" style="text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);">
+                        WHAT WE HAVE </br>
+                        TO OFFER</h1>
+                    <p class="p hidden">[A LOT]</p>
+                </div>
+            </div>
+            <div class="col-8 col-xs-12">
+                <p class="p hidden">
+                    Lorem ipsum dolor sit amet. Ut necessitatibus Quis aut error veritatis id temporibus facilis
+                    qui
+                    tempora placeat non voluptatem iusto aut omnis sunt. Id dolorem autem est quae enim aut
+                    velit
+                    internos et recusandae iste et explicabo facilis qui recusandae veniam. Quo eius molestiae
+                    et rerum
+                    delectus ut nobis voluptate aut dolorum placeat quo dolorem tempora a architecto rerum! Rem
+                    tempora
+                    tempora ut voluptate adipisci rem fugit facilis vel culpa aliquam et exercitationem unde.
+
+                    Et ducimus excepturi qui quia nesciunt ad obcaecati vitae ut dolor modi quo voluptatibus
+                    reiciendis
+                    in ipsa praesentium? Vel quas cumque id possimus velit et blanditiis asperiores.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="contact" class="nav-link px-2 text-muted">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Contact</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; 2023 Games Pending</p>
+        </footer>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <!-- SCRIPTS -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script defer src="app.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".interiorText", {
+            strings: ["Game Videos]", "Tutorials]"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+
+        document.getElementById("subBtn").addEventListener("click", function () {
+            window.open("https://www.youtube.com/@gamespending?sub_confirmation=1");
+        });
+
+        document.getElementById("folBtn").addEventListener("click", function () {
+            window.open("https://twitter.com/GamesPending");
+        });
+
+        document.getElementById("viewAll").addEventListener("click", function () {
+            window.open("https://www.youtube.com/@gamespending/videos");
+        });
+    </script>
+
+</body>
+
+</html>

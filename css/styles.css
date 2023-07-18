@@ -1,0 +1,121 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+
+}
+
+.navbar {
+    background-color: white;
+}
+
+#email::placeholder {
+    color: white;
+}
+
+#sbtBtn {
+    border: 2px solid white;
+    width: 7rem;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#sbtBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+.card {
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(-100%);
+    filter: blur(5px);
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.p :nth-child() {
+    transition: 200ms;
+}
+
+.hidden2 {
+    opacity: 0;
+    transition: all 1s;
+    transform: translateX(100%);
+    filter: blur(5px);
+}
+
+.show2 {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden2 {
+        transition: none;
+    }
+}
+
+nav ul li {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+#subBtn {
+    border: 2px solid white;
+    width: 10rem;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.1s;
+}
+
+#subBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+#folBtn {
+    border: 2px solid white;
+    width: 10rem;
+    background-color: transparent;
+    color: white;
+    transition: background-color 0.1s;
+}
+
+#folBtn:hover {
+    background-color: white;
+    color: black;
+}
+
+#viewAll {
+    border: 2px solid black;
+    width: 10rem;
+    background-color: transparent;
+    color: black;
+    transition: background-color 0.2s;
+}
+
+#viewAll:hover {
+    background-color: black;
+    color: white;
+}
